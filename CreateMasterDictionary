@@ -171,25 +171,4 @@ def create_candidate_dict(masterdict):
 masterdict = create_candidate_dict(masterdict)
 
 
-"""
-#summary of quantities of elements
-state_qty = 0
-for x in masterdict:
-    state_qty += len(masterdict[x])
-district_qty = 0 
-for x in masterdict:
-    for y in masterdict[x]:
-        district_qty += len(masterdict[x][y])     
-ac_qty = 0 
-for x in masterdict:
-    for y in masterdict[x]:
-        for z in masterdict[x][y]:
-            ac_qty += len(masterdict[x][y][z])
-candidate_qty = 0
-for x in masterdict:
-    for y in masterdict[x]:
-        for z in masterdict[x][y]:
-            for c in masterdict[x][y][z]:
-                candidate_qty += len(masterdict[x][y][z][c])
-print "There are %d states, %d election-years, %d districts, %d ACs and %d candidates" %(len(masterdict), state_qty, district_qty, ac_qty, candidate_qty)
-"""
+
