@@ -1,4 +1,6 @@
-animated-tyrion
+GWU MSBA 
+Programming for Analytics
+Fall 2014
 ===============
 
-Tyrion which is animated
+
