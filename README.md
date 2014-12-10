@@ -1,6 +1,5 @@
 GWU MSBA 
-Programming for Analytics
-Fall 2014
+Programming for Analytics (Fall 2014)
 ===============
 
 The code within this repository can be used to scrape candidate data from myneta.info, transform into a data frame, save as a csv, analyse and present in R.Shiny.
