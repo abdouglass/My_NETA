@@ -3,6 +3,7 @@ import pandas as pd
 import MySQLdb as myDB
 import pandas.io.sql as psql
 
+#this code assumes that the scrapping portion has been completed.  The code for the scrapping can be found at: https://github.com/abdouglass/My_NETA/blob/master/CreateMasterDictionary.py
 
 #create dataframe from the nested dictionary
 masterDF = pd.DataFrame()   #create blank DF
